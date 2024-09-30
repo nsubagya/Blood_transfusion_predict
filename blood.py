@@ -5,8 +5,10 @@ import streamlit as st
 from datetime import datetime
 from tabulate import tabulate
 
-# Display local image
+
+# Display image from URL
 st.image("https://github.com/nsubagya/Blood_transfusion_predict/blob/main/2uypz7k4.png", caption="Blood Donation Process", use_column_width=True)
+
 
 
 # Load the model from the file
